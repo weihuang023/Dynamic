@@ -20,7 +20,7 @@ public class TimeAndCost {
 	
 	public static List<TimeAndCost> getMiniCost()
 	{
-		int totalTime = 9;
+		// totalTime = 9;
 		int time [] = {1,2,2,3,3,4};
 		int cost [] = {9, 5, 10, 4, 9, 5};
 		
