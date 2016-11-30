@@ -22,12 +22,14 @@ public class Contact {
 	{   
 		Contact newcontact1 = Contact.setContact(1134567890, "Huang");
 		Contact newcontact2 = Contact.setContact(1436789133, "Honey");
-		Contact newcontact3 = Contact.setContact(1231231230, "House");
-		Contact newcontact4 = Contact.setContact(1141321111, "Hodan");
-		Contact newcontact5 = Contact.setContact(1151231111, "Hddcn");
-		Contact newcontact6 = Contact.setContact(1211311111, "Hbbcn");
-		Contact newcontact7 = Contact.setContact(1131112211, "Honon");
-		Contact newcontact8 = Contact.setContact(1111111123, "Habcn");
+		Contact newcontact3 = Contact.setContact(1231231230, "Yahoo");
+		Contact newcontact4 = Contact.setContact(1141321111, "Hoooo");
+		Contact newcontact5 = Contact.setContact(1151231111, "David");
+		Contact newcontact6 = Contact.setContact(1211311111, "Jay");
+		Contact newcontact7 = Contact.setContact(1131112211, "Jane");
+		Contact newcontact8 = Contact.setContact(1111111123, "Jess");
+		Contact newcontact9 = Contact.setContact(1123656123, "QiYi");
+		
 		
 		List<Contact> contacts = new ArrayList<Contact>();
 		
@@ -39,7 +41,8 @@ public class Contact {
 		contacts.add(newcontact6);
 		contacts.add(newcontact7);
 		contacts.add(newcontact8);
-	
+		contacts.add(newcontact9);
+		
 		int size = contacts.size();
 		for (int i = 0 ; i < size ; i ++ )
 		{
@@ -60,7 +63,7 @@ public class Contact {
 	
 	
 	public static void main(String[] args){
-		System.out.println("Get Phone Number with 123: ");
+
 		getContactsWith123();
 		
 	}
